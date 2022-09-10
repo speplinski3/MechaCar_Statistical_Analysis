@@ -28,10 +28,11 @@
 
 * The summary function was called on the regression.
 
-![image](https://user-images.githubusercontent.com/103383489/189496375-e4ca83ee-e15d-45df-b90f-66ea074acade.png)
+![image](https://user-images.githubusercontent.com/103383489/189496771-48601904-c55a-41aa-b8fa-404933c9a9fe.png)
 
 
+* In the summary output, each `Pr(>|t|)` value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results, intercept, **vehicle_length** and **ground_clearance** are statistically unlikely to provide random amounts of variance to the linear model. **In other words the vehicle_length and ground_clearance have a significant impact on MPG.**
 
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-* Is the slope of the linear model considered to be zero? Why or why not?
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+* The significance level is the probability of rejecting the null hypothesis when it is true. A significance level of 0.05 indicates a 5% risk of concluding that a difference exists when there is no actual difference. Our p-value for this regression is `p-value: 5.35e-11` which is smaller than a standard significance level of .05. This indicates that the slope of the linear model is not zero and our probability of rejecting the null hypothesis when it is true is low. 
+
+*  Our r-squared value shows how well the data fits the regression model (the goodness of fit). The r-squared value in our regression model is 0.7149 (71.5%) indicating that our model **predicts MPG of the protoype to a relatively effective degree**.
