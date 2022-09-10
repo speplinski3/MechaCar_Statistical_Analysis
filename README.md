@@ -36,3 +36,5 @@
 * The significance level is the probability of rejecting the null hypothesis when it is true. A significance level of 0.05 indicates a 5% risk of concluding that a difference exists when there is no actual difference. Our p-value for this regression is `p-value: 5.35e-11` which is smaller than a standard significance level of .05. This indicates that the slope of the linear model is not zero and our probability of rejecting the null hypothesis when it is true is low. 
 
 *  Our r-squared value shows how well the data fits the regression model (the goodness of fit). The r-squared value in our regression model is 0.7149 (71.5%) indicating that our model **predicts MPG of the protoype to a relatively effective degree**.
+
+## Summary Statistics on Suspension Coils
