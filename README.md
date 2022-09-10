@@ -96,7 +96,13 @@ Lot 3
 
 ## Study Design: MechaCar vs Competition
 
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+### Compared to competitors, what can MechaCar do to provide a better product to consumers? 
+
+---
+
+Cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating could all be considered.
+
+*Example Null Hypothesis:* MechaCar models are no different in terms of highway fuel efficiency when compared to other competitor car models.
+*Example Alternative Hypothesis:* MechaCar models have better highway fuel efficiency when compared to other competitor car models (by a determined value).
+
+In this example, similar to our PSI by Lot stastitical testing, a one-sample t-test could be sufficient. We would compare the statistical difference between the mean of highway fuel efficiency of our car models with the sample mean of highway fuel efficiency from competitors. We would need to obtain highway fuel efficiency data from similar models from our competitors to run statistical testing.
